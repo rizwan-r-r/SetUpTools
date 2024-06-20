@@ -5,7 +5,7 @@ backend-path = ["."]
 
 [project]
 name = "setuptools"
-version = "70.0.0"
+version = "70.1.0"
 authors = [
 	{ name = "Python Packaging Authority", email = "distutils-sig@python.org" },
 ]
@@ -40,7 +40,7 @@ testing = [
 	"pytest-mypy",
 	"pytest-enabler >= 2.2",
 	# workaround for pypa/setuptools#3921
-	'pytest-ruff >= 0.2.1; sys_platform != "cygwin"',
+	'pytest-ruff >= 0.3.2; sys_platform != "cygwin"',
 
 	# local
 	"virtualenv>=13.0.0",
